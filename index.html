@@ -11,8 +11,10 @@
     Author: Emmanuel Cortes Castaneda
     Date: 08/22/18  
 
-    Filename: dr_index.html
+    Filename: index.html
    -->
+
+    <!-- Inside the head is where the layout of the page will be represented by in the browser and also the title of the tab in the browser -->
     <meta charset="utf-8">
     <meta name="keywords" content="breast cancer, run, race, charity">
     <title>Diane's Run</title>
@@ -21,7 +23,7 @@
 </head>
 
 <body>
-
+    <!-- Inside the header is where the navigation between pages will happen. I've linked three different pages which are Home, Race Info, and FAQ. -->
     <header>
         <nav>
             <ul>
@@ -37,7 +39,7 @@
             </ul>
         </nav>
     </header>
-
+    <!-- Inside the section is where there is information about the page with the headings marked as h1 which are 1st level headings, then the content within those headings are wrapped in paragraphs. The amount of money is also emphasized with strong elements making them bold. -->
     <section>
         <h1>What Your Support Does</h1>
         <p>Every 10 minutes a woman is diagnosed with breast cancer. Her first reaction is fear and confusion. Support is just
@@ -64,7 +66,7 @@
                 easy access to the latest resources and help.</li>
         </ul>
     </section>
-
+    <!-- inside this section element, there is an image to go with the text. All the headers are labeled as h2 which are 2nd level headings. The email should take you to your email client and the subject is filled in with 'Entry Form' clicking on accommodations takes you to the FAQ page, to question 13. All the way at the bottom the footer is added which gives the user some basic information about the page. -->
     <section>
         <img src="dr_photo1.png" alt="Diane's Run">
         <header>
@@ -80,10 +82,12 @@
 
         <h2>How to Join</h2>
 
-        <p>You can guarantee a spot by filling out the entry form and mailing it to dianesrun@example.com. The $35 entry fee
-            is tax deductible and goes directly to important research and women in need. We keep our overhead very low so
-            every dollar counts. More than 75% of the net proceeds fund screening and treatment programs in your communities.
-            We welcome out-of-town visitors. We will help you find accommodations during your visit.</p>
+        <p>You can guarantee a spot by filling out the entry form and mailing it to
+            <a href="mailto:dianesrun@example.com?subject=Entry Form">dianesrun@example.com</a>. The $35 entry fee is tax deductible and goes directly to important research and women
+            in need. We keep our overhead very low so every dollar counts. More than 75% of the net proceeds fund screening
+            and treatment programs in your communities. We welcome out-of-town visitors. We will help you find
+            <a href="dr_faq.html#faq13">accommodations</a>
+            during your visit. </p>
 
 
         <h2>History</h2>
